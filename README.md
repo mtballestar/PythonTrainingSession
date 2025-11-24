@@ -16,4 +16,10 @@ Crear un gráfico de descomposición (observado, tendencia, estacionalidad y res
 python visualize_brands.py --decompose zara --output zara_decomposition.svg
 ```
 
+También puedes generar la descomposición para otras marcas, por ejemplo Temu:
+
+```bash
+python visualize_brands.py --decompose temu --output temu_decomposition.svg
+```
+
 El parámetro `--output` es opcional y permite elegir el nombre del archivo SVG de salida.
